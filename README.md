@@ -17,7 +17,7 @@ Known limitations so far:
 
 ### Prerequisites
 
-Debian Packages: psutils, ghostscript, poster
+Debian Packages: psutils, ghostscript, poster, cmake, kde-developer-sdk, libspectre-dev
 
 ### Compile
 
