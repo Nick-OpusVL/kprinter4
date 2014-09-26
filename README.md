@@ -21,13 +21,17 @@ Debian Packages: psutils, ghostscript, poster
 
 ### Compile
 
+```
 mkdir build
 cd build
 cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/usr ..
 make
 (sudo) make install
+```
 
 ### Run
 
+```
 build/kprinter4 --help
 build/kprinter4 [options] file.ps
+```
